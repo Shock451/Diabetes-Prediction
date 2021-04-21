@@ -7,6 +7,7 @@ import numpy as np
 # Your API definition
 app = Flask(__name__)
 
+# parameters to be supplied with sample values
 # {"Pregnancies" : 10, "Glucose" : 101, "BloodPressure" : 76, "SkinThickness" : 48, "Insulin" : 180, "BMI" : 32.9, "DiabetesPedigreeFunction" : 0.171, "Age" : 63}	
 
 @app.route('/predict', methods=['POST'])
@@ -29,9 +30,7 @@ def predict():
         return ('No model here to use')
 
 if __name__ == '__main__':
-    lr = joblib.load("C:/Users/HP/Documents/Clean Start/Py/AI Project/model.pkl") # Load "model.pkl"
-    print ('Model loaded')
-    model_columns = joblib.load("C:/Users/HP/Documents/Clean Start/Py/AI Project/model_columns.pkl") # Load "model_columns.pkl"
-    print ('Model columns loaded')
+    lr = joblib.load("./model.pkl") # Load "model.pkl"
+    model_columns = joblib.load("./model_columns.pkl") # Load "model_columns.pkl"
 
     app.run(debug=True)
