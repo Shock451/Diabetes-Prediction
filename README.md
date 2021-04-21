@@ -1,6 +1,8 @@
 # Diabetes Prediction API
 
-Data Mining plays an important role in predicting outcomes in the medical field, as well as other scientific fields, enabling health systems to systematically use data and analytics to identify deficiencies and best practices that improve care and predict possible anomalies. Data mining—  a  process of selecting, exploring, and modeling large amounts of data to discover unknown patterns or relationships — has become an essential methodology for computing applications in medical informatics. 
+Data Mining plays an important role in predicting outcomes in the medical field, as well as other scientific fields, enabling health systems to systematically use data and analytics to identify deficiencies and best practices that improve care and predict possible anomalies. 
+
+Data mining—  a  process of selecting, exploring, and modeling large amounts of data to discover unknown patterns or relationships — has become an essential methodology for computing applications in medical informatics. 
 
 Diabetes is caused by an increase in the level of blood glucose. 
 
